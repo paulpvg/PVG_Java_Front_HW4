@@ -26,8 +26,6 @@ public class App
             System.out.println("\n" + ANSI_RED + e.getMessage() + ANSI_RESET + "\n");
         }
 
-//        System.out.println(new Triangle(19,4,16).areaTriangle());
-
     }
 
     public static Triangle InputTriangle(){
