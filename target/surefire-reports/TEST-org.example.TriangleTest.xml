@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.TriangleTest" time="0.279" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\Users\Pavel\IdeaProjects\PVG_Java_Front_HW4\target\test-classes;D:\Users\Pavel\IdeaProjects\PVG_Java_Front_HW4\target\classes;D:\Users\Pavel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;D:\Users\Pavel\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\Pavel\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;D:\Users\Pavel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;D:\Users\Pavel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;D:\Users\Pavel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\Pavel\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;D:\Users\Pavel\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\Users\Pavel\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\Users\Pavel\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
+    <property name="sun.java.command" value="D:\Users\Pavel\AppData\Local\Temp\surefire12964043362252530450\surefirebooter13294296642932787569.jar D:\Users\Pavel\AppData\Local\Temp\surefire12964043362252530450 2021-11-22T20-41-24_712-jvmRun1 surefire10793659179209543264tmp surefire_011762349002561108222tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Users\Pavel\IdeaProjects\PVG_Java_Front_HW4\target\test-classes;D:\Users\Pavel\IdeaProjects\PVG_Java_Front_HW4\target\classes;D:\Users\Pavel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;D:\Users\Pavel\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\Pavel\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;D:\Users\Pavel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;D:\Users\Pavel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;D:\Users\Pavel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\Pavel\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;D:\Users\Pavel\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\Users\Pavel\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\Users\Pavel\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="D:\Users\Pavel"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Users\Pavel\IdeaProjects\PVG_Java_Front_HW4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="D:\Users\Pavel\AppData\Local\Temp\surefire12964043362252530450\surefirebooter13294296642932787569.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="Pavel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="D:\Users\Pavel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="D:\Users\Pavel\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="D:\Users\Pavel\IdeaProjects\PVG_Java_Front_HW4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ADB\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\Users\Pavel\AppData\Local\Programs\Python\Python38\Scripts\;D:\Users\Pavel\AppData\Local\Programs\Python\Python38\;D:\Users\Pavel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;;D:\Users\Pavel\AppData\Local\Programs\Fiddler;;C:\Program Files (x86)\apache-maven-3.8.3\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="regularHeronTriangleTest" classname="org.example.TriangleTest" time="0.031">
+    <system-out><![CDATA[20:41:25,863 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:41:25,863 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+20:41:25,863 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/D:/Users/Pavel/IdeaProjects/PVG_Java_Front_HW4/target/test-classes/logback.xml]
+20:41:25,939 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:41:25,939 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:41:25,945 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+20:41:25,966 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+20:41:25,966 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+20:41:25,966 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+20:41:25,966 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+20:41:25,967 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+20:41:25,967 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:41:25,967 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@64ec96c6 - Registering current configuration as safe fallback point
+
+20:41:25.991 [main] INFO  org.example.TriangleTest - Позитивный тест. Разносторонний треугольника Герона со сторонами: 9, 10, 17
+]]></system-out>
+  </testcase>
+  <testcase name="impossibleTriangleTest(int, int, int)[1]" classname="org.example.TriangleTest" time="0.02">
+    <system-out><![CDATA[20:41:26.054 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с невозможным сочетанием сторон: 5, 6, 11
+]]></system-out>
+  </testcase>
+  <testcase name="impossibleTriangleTest(int, int, int)[2]" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.059 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с невозможным сочетанием сторон: 4, 5, 10
+]]></system-out>
+  </testcase>
+  <testcase name="impossibleTriangleTest(int, int, int)[3]" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.062 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с невозможным сочетанием сторон: 3, 4, 8
+]]></system-out>
+  </testcase>
+  <testcase name="rightHeronTriangleTest" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.064 [main] INFO  org.example.TriangleTest - Позитивный тест. Прямоугольный треугольник Герона со сторонами: 3, 4, 5
+]]></system-out>
+  </testcase>
+  <testcase name="isoscelesHeronTriangleTest" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.065 [main] INFO  org.example.TriangleTest - Позитивный тест. Равнобедренный треугольник Герона со сторонами: 5, 5, 8
+]]></system-out>
+  </testcase>
+  <testcase name="zeroSideTriangleTest" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.070 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с нулевой стороной: 0, 4 ,7
+]]></system-out>
+  </testcase>
+  <testcase name="zeroSideTriangleTest" classname="org.example.TriangleTest" time="0">
+    <system-out><![CDATA[20:41:26.072 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с нулевой стороной: 0, 4 ,7
+]]></system-out>
+  </testcase>
+  <testcase name="zeroSideTriangleTest" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.074 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с нулевой стороной: 0, 4 ,7
+]]></system-out>
+  </testcase>
+  <testcase name="regularTriangleTest" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.075 [main] INFO  org.example.TriangleTest - Позитивный тест. Обычный треугольник со сторонами: 19, 4, 16
+]]></system-out>
+  </testcase>
+  <testcase name="equilateralTriangleTest" classname="org.example.TriangleTest" time="0.001">
+    <system-out><![CDATA[20:41:26.076 [main] INFO  org.example.TriangleTest - Позитивный тест. Равносторонний треугольник со сторонами: 6, 6, 6
+]]></system-out>
+  </testcase>
+  <testcase name="negativeSideTriangleTest(int)[1]" classname="org.example.TriangleTest" time="0.003">
+    <system-out><![CDATA[20:41:26.081 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с отрицательной стороной: -13, 4 , 5
+]]></system-out>
+  </testcase>
+  <testcase name="negativeSideTriangleTest(int)[2]" classname="org.example.TriangleTest" time="0">
+    <system-out><![CDATA[20:41:26.084 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с отрицательной стороной: -1024, 4 , 5
+]]></system-out>
+  </testcase>
+  <testcase name="negativeSideTriangleTest(int)[3]" classname="org.example.TriangleTest" time="0.002">
+    <system-out><![CDATA[20:41:26.086 [main] INFO  org.example.TriangleTest - Негативный тест. Треугольник с отрицательной стороной: -256, 4 , 5
+]]></system-out>
+  </testcase>
+</testsuite>
