@@ -62,7 +62,7 @@ public class TriangleTest {
     }
 
     @ParameterizedTest
-    @ValueSource(ints = {-7, -2, -965})
+    @ValueSource(ints = {-13, -1024, -256})
     @DisplayName("Отрицательная сторона")
     public void negativeSideTriangleTest(int a){
 
